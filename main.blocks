@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="lbZ93k]ySsi.2Ke#]xQ1">Dash</variable><variable id="=nkyRTy1G(z2-FCUaO}/">mySprite</variable><variable type="KIND_SpriteKind" id="sTt8C!KrDQJ,`-XylC5H">Player</variable><variable type="KIND_SpriteKind" id="yszKnljzHG#[3CYd^O`p">Projectile</variable><variable type="KIND_SpriteKind" id="Ei.9s}0:^JmBWJh^^zzl">Food</variable><variable type="KIND_SpriteKind" id="gvfzI?ZwKx5#Xu7{nCuC">Enemy</variable></variables><block type="pxt-on-start" id="@*txGIA]bonQLHQe1./B" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id=")=Yw3M.KN-JbvU!]CjFd"><value name="color"><shadow type="colorindexpicker" id="Ldo`5^{YTPp`RpqPDuxi"><field name="index">13</field></shadow></value><next><block type="set_current_tilemap" id="Zj~Wlgw,Zo[z_;l.xG}3"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="g$cF1Cff}`L*S^.0-%m["><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data></shadow><block type="tiles_tilemap_editor" id="tv]Yyn)Vk[gEw#xIAB5n"><field name="tilemap">tilemap`level1 2 3 and 4 bonus victory level`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data></block></value><next><block type="variables_set" id="Igk-9?fLfoH@!P|GP/Qz"><field name="VAR" id="lbZ93k]ySsi.2Ke#]xQ1">Dash</field><value name="VALUE"><shadow type="math_number" id="`|TrE5EBR;1HoinZP4#;"><field name="NUM">0</field></shadow><block type="spritescreate" id="Q]q8Lq^_Oj;giP0%bV_A"><value name="img"><shadow type="screen_image_picker" id="Wj~%-hDu7~ogXs=lcc29"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow><block type="screen_image_picker" id="oI)1R9tLs%n~3|S.[pE#"><field name="img">assets.image`Ken dash`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></block></value><value name="kind"><shadow type="spritekind" id="EoP^:eTPyykCH`e]TK^e"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block><block type="game_control_sprite" id="{Dh0+2Sk2suNe5~Zfixr" disabled-reasons="pxt_automatic_disabled" x="157" y="278"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="cPef^[#^Ug0z?jLaMp?;" disabled-reasons="pxt_automatic_disabled"><field name="VAR" id="lbZ93k]ySsi.2Ke#]xQ1">Dash</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="OFn:[moCbr.*xi8*fHj-" disabled-reasons="pxt_automatic_disabled"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="wNQ^;9yNIyUc;w$5fiVO" disabled-reasons="pxt_automatic_disabled"><field name="speed">100</field></shadow></value><next><block type="camerafollow" id="HV0P8i!/{c}%wI4%t%f." disabled-reasons="pxt_automatic_disabled"><value name="sprite"><block type="variables_get" id="o+!B71h|gENBv;H7c;*F" disabled-reasons="pxt_automatic_disabled"><field name="VAR" id="lbZ93k]ySsi.2Ke#]xQ1">Dash</field></block></value></block></next></block></xml>
